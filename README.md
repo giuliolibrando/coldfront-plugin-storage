@@ -9,6 +9,7 @@ The plugin checks for Allocations with   `Storage Quota (GB)`  or  `Storage Quot
 If are defined, it exports them to a file in the format
 `Storage Name|Storage_Group_Name|gigabytes|Status`
 
+The env `STORAGE_PLUGIN` must be set to `True`, (default false)
 Example:
 
     root@localhost:/opt# coldfront storage_dump
